@@ -9,12 +9,12 @@ import org.openqa.selenium.WebElement;
 
 
 public class OLXRegister extends BaseOLX {
-        ElementMethods elementMethods;
-        PropertyFile propertyFile;
+    ElementMethods elementMethods;
+    PropertyFile propertyFile;
 
 
     @Test
-         public void Register(){
+    public void Register(){
         elementMethods=new ElementMethods(driver);
         propertyFile=new PropertyFile("RegisterData");
 

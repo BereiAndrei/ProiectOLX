@@ -12,7 +12,7 @@ public class BaseOLX {
 
     public void Setup(){
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Automation\\ChromeDriver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.olx.ro/");
         driver.manage().window().maximize();

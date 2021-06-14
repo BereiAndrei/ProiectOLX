@@ -20,7 +20,7 @@ public class PropertyFile {
     public void LoadFile(String Email) {
         Property = new Properties();
         try {
-            File = new FileInputStream("F:/Proiect Andy Automation/src/test/resources/InputData/" + Email + ".properties");
+            File = new FileInputStream("src/test/resources/InputData/" + Email + ".properties");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
