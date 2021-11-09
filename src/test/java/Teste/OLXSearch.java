@@ -1,6 +1,6 @@
 package Teste;
 
-import Base.BaseOLX;
+ import Base.BaseOLX;
 import Help.ElementMethods;
 import PropertyUtility.PropertyFile;
 import org.junit.Test;
